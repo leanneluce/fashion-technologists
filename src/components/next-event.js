@@ -90,6 +90,9 @@ const mapOptions = {
   ]
 };
 
+var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
+    targetUrl = 'https://api.meetup.com/fashion-technologists/events?photo-host=public&sig_id=150556582&sig=6056ddabb2086a6d1619fda20592ae74dc20a8a5';
+
 export default class NextEvent extends Component {
 
   constructor(props) {
@@ -101,7 +104,7 @@ export default class NextEvent extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.meetup.com/fashion-technologists/events?photo-host=public&page=20&sig_id=150556582&sig=031677cfba08406768204550e80224672dd6bc77')
+    fetch(proxyUrl + targetUrl)
       .then(results => {
         return results.json();
       }).then((data) => {

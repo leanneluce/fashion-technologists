@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
+var proxyUrl2 = 'https://cors-anywhere.herokuapp.com/',
+    targetUrl2 = 'https://api.meetup.com/2/events?&sign=true&photo-host=public&group_urlname=fashion-technologists&status=past';
+
 export default class PastEvents extends Component {
 
   constructor(props) {
@@ -19,7 +22,7 @@ export default class PastEvents extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.meetup.com/2/events?&sign=true&photo-host=public&group_urlname=fashion-technologists&status=past&page=20')
+    fetch(proxyUrl2 + targetUrl2)
       .then(results => {
         return results.json();
       }).then((data) => {

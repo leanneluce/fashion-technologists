@@ -90,15 +90,8 @@ const mapOptions = {
   ]
 };
 
-let header = new Headers({
-    'Access-Control-Allow-Origin':'*',
-    'Content-Type': 'multipart/form-data'
-});
-
-var myInit = { method: 'GET',
-               mode: 'cors',
-               header: header,
-               cache: 'default' };
+var proxyUrl3 = 'https://cors-anywhere.herokuapp.com/',
+    targetUrl3 = 'https://api.meetup.com/fashion-technologists/events?photo-host=public&sig_id=150556582&sig=6056ddabb2086a6d1619fda20592ae74dc20a8a5';
 
 export default class EventList extends Component {
 
@@ -111,7 +104,7 @@ export default class EventList extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.meetup.com/fashion-technologists/events?photo-host=public&page=20&sig_id=150556582&sig=031677cfba08406768204550e80224672dd6bc77', myInit)
+    fetch(proxyUrl3 + targetUrl3)
       .then(results => {
         return results.json();
       }).then((data) => {
