@@ -6,7 +6,7 @@ import { Media } from 'reactstrap';
 import SubscribePage from './components/newsletter';
 
 var proxyUrl4 = 'https://cors-anywhere.herokuapp.com/',
-    targetUrl4 = 'https://api.meetup.com/fashion-technologists/events?photo-host=public&sig_id=150556582&sig=6056ddabb2086a6d1619fda20592ae74dc20a8a5';
+    targetUrl4 = 'https://api.meetup.com/fashion-technologists?photo-host=public&sig_id=150556582&sig=c6b4831b735ac0e743f44a07dca0edfdcbdb9a5f';
 
 export default class AboutUs extends Component {
 
@@ -16,7 +16,7 @@ export default class AboutUs extends Component {
       aboutdata: {},
       requestFailed: false
     }
-  };
+  }
 
   componentDidMount() {
     fetch(proxyUrl4 + targetUrl4)
