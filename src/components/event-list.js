@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import GoogleMapReact from 'google-map-react';
+import GoogleMap from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => (
   <div style={{
@@ -175,13 +175,17 @@ export default class EventList extends Component {
             <div id="location-all">
               <p className="uppercase text-center gray">Location</p>
               <div id="map">
-                 <GoogleMapReact options={mapOptions} defaultZoom={14} defaultCenter={center}>
+                 <GoogleMap
+                    bootstrapURLKeys={{
+                      key: 'AIzaSyAG0yosDNVGhnGv5QaP3RH05UpLIRXWYz4'
+                    }}
+                    options={mapOptions} defaultZoom={14} defaultCenter={center}>
                   <AnyReactComponent
                     lat={latitude}
                     lng={longitude}
                     text={googledir}
                   />
-                </GoogleMapReact>
+                </GoogleMap>
               </div>
               <div id="location-details">
                 <p className="text-center">

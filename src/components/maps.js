@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import GoogleMap from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => (
   <div style={{
@@ -94,13 +94,16 @@ export default class SimpleMap extends Component {
   render() {
     return (
       <div id="map">
-         <GoogleMapReact bootstrapURLKeys={{key: AIzaSyAG0yosDNVGhnGv5QaP3RH05UpLIRXWYz4 }} options={mapOptions} defaultZoom={11} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
+         <GoogleMap bootstrapURLKeys={{
+            key: 'AIzaSyAG0yosDNVGhnGv5QaP3RH05UpLIRXWYz4'
+          }}
+           options={mapOptions} defaultZoom={11} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
           <AnyReactComponent
             lat={-34.397}
             lng={150.644}
             text={'Event Location'}
           />
-        </GoogleMapReact>
+        </GoogleMap>
       </div>
     );
   }
