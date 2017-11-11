@@ -1,6 +1,9 @@
 A react front-end for Meetup group: meetup.com/fashion-technologists.
 
+![Responsive Screenshots Fashion Technologists Site](public/img/Responsive-Fashion-Technologists.jpg?raw=true "Responsive Screenshots Fashion Technologists Site")
+
 ## Table of Contents
+
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
@@ -9,6 +12,7 @@ A react front-end for Meetup group: meetup.com/fashion-technologists.
 - [Updating Live Site](#updating-live)
 - [Meetup Connections](#meetup-connections)
 - [Wufoo Connections](#wufoo-connections)
+- [Fonts](#fonts)
 
 ## Available Scripts
 
@@ -35,17 +39,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](#deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+See the section about [Updating Live](#updating-live) for more information.
 
 ## Updating Live
 
@@ -71,6 +65,12 @@ This site is a front-end only that pulls in data from the meetup group: meetup.c
   - location
 
 ## Wufoo Connections
+
 This site employs Wufoo forms to collect data.
 - /sponsor-form
 - /contact
+
+## Fonts
+
+Fonts used in this site come from Adobe Typekit.  Expressly, [Calluna](https://typekit.com/fonts/calluna).
+Icons from [Ionic Framwork](https://ionicframework.com/docs/ionicons/).
