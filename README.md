@@ -12,8 +12,8 @@ A react front-end for Meetup group: meetup.com/fashion-technologists.
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
 - [Updating Live Site](#updating-live)
-- [Meetup Connections](#meetup-connections)
-- [Wufoo Connections](#wufoo-connections)
+- [Meetup Integrations](#meetup-integrations)
+- [Wufoo Integrations](#wufoo-integrations)
 - [Fonts](#fonts)
 
 ## Available Scripts
@@ -46,13 +46,17 @@ See the section about [Updating Live](#updating-live) for more information.
 ## Updating Live
 
 To update the live site at: https://fashion-technologists.com, in main directory:
-1 - npm run build
-2 - firebase init
-3 - enter (do not select choices, it's configured for: storage and hosting)
-4 - firebase deploy
-5 - site should be updated live
+### `npm run build`
 
-## Meetup Connections
+### `firebase init`
+
+### `return`
+(do not select choices, it's configured for: storage and hosting)
+
+### `firebase deploy`
+site should be updated live
+
+## Meetup Integrations
 
 This site is a front-end only that pulls in data from the meetup group: meetup.com/fashion-technologists.  There is however, some static information.  Here is a quick list of the pages that pull in meetup data:
 - /events
@@ -66,7 +70,7 @@ This site is a front-end only that pulls in data from the meetup group: meetup.c
   - about
   - location
 
-## Wufoo Connections
+## Wufoo Integrations
 
 This site employs Wufoo forms to collect data.
 - /sponsor-form
