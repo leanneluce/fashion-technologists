@@ -228,6 +228,12 @@ body {
   }
 }
 
+/* SPONSOR
+=================================== */
+#event-page .sponsor img {
+  width: 80%;
+}
+
 /* FOOTER
 =================================== */
 .footer {
@@ -239,71 +245,5 @@ body {
   left: 0;
 }
 
-/* WUFOO FORM EMBED
-=================================== */
-#form1,
-#form2 {
-  text-align: center !important;
-}
-#form-1 label.desc,
-#form-2 label.desc {
-  font-size: 16px !important;
-  letter-spacing: .1em;
-}
-#header {
-  font-size: 16px;
-  letter-spacing: .1em;
-}
-#Field1,
-#Field2,
-#Field3,
-#Field5,
-#Field6,
-#Field7,
-#Field12,
-#Field15,
-#Field24 {
-  border-radius: 4px !important;
-  height: 20px !important;
-  background: white !important;
-  border: 2px solid #eeeeee !important;
-}
-#Field24 {
-  width: 20%;
-}
-
-#Field4,
-#Field8,
-#Field9 {
-  border-radius: 4px;
-  background: white;
-  border: 2px solid #eeeeee;
-}
-
-#title1,
-#title2,
-#title3,
-#title4,
-#title5,
-#title6,
-#title7,
-#title8,
-#title9,
-#title12,
-#title15,
-#title24 {
-  font-size: 16px;
-  letter-spacing: .1em;
-}
-#saveForm {
-  background: #0000ff;
-  padding: 10px 15px;
-  font-family: var(--font);
-  color: white;
-  border: 0;
-  border-radius: 4px;
-}
-.wufoo li.focused {
-  border-radius: 4px;
-  background-color: var(--ghost-color);
-}
+/* WUFOO CUSTOM CSS CAN BE FOUND AT:
+https://rightful-form.surge.sh/wufoo.css */

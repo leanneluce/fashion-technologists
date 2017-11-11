@@ -67,7 +67,7 @@ export default class AboutUs extends Component {
                   </div>
                   <div className="col-sm-9">
                     <h3 className="text-primary">Christian Martin</h3>
-                    <p className="text-left">Christian is the CEO of IoT 4 Style. He is a Business Dev & Research, Strategist in Technologies for Fashion, Beauty & Retail experiences.</p>
+                    <p className="text-left">Christian is the CEO of IoT 4 Style. He is a Business Dev & Research Strategist in Technologies for Fashion, Beauty & Retail experiences.</p>
                   </div>
                 </div>
               </div>

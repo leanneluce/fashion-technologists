@@ -12,7 +12,8 @@ export default class Footer extends Component {
               <p>Website created by <a target="none" href="http://0xeye.com">0xeye</a></p>
             </div>
             <div className="col-xs-6 col-sm-6">
-              <p className="float-right">Join us: <a href="https://meetup.com/fashion-technologists">Meetup</a></p>
+              <p className="text-right">Join us: <a href="https://meetup.com/fashion-technologists">Meetup</a> <br />
+              <a className="text-right" href="mailto:info@fashion-technologists.com">info@fashion-technologists.com</a></p>
             </div>
 
           </div>
