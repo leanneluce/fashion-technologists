@@ -1,10 +1,11 @@
 # Fashion Technologists
 
-A react front-end for Meetup group: meetup.com/fashion-technologists.
+A React front-end for Meetup group: meetup.com/fashion-technologists.
 
 ![Responsive Screenshots Fashion Technologists Site](public/img/Responsive-Fashion-Technologists.jpg?raw=true "Responsive Screenshots Fashion Technologists Site")
 
 ## Table of Contents
+This React App was created using `create-react-app`.  For more documentation, check out the [create-react-app documentation](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
@@ -18,7 +19,7 @@ A react front-end for Meetup group: meetup.com/fashion-technologists.
 
 ## Available Scripts
 
-In the project directory, you can run:
+This section has been copied from the create-react-app documentation. In the project directory, you can run:
 
 ### `npm start`
 
