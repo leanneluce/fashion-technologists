@@ -79,5 +79,5 @@ This site employs Wufoo forms to collect data.
 
 ## Fonts
 
-Fonts used in this site come from Adobe Typekit.  Expressly, [Calluna](https://typekit.com/fonts/calluna).
-Icons from [Ionic Framwork](https://ionicframework.com/docs/ionicons/).
+Fonts used in this site come from Adobe Typekit.  Expressly, [Calluna](https://typekit.com/fonts/calluna).<br>
+Icons from [Ionic Framework](https://ionicframework.com/docs/ionicons/).
