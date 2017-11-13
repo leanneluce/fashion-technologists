@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import SubscribePage from './components/newsletter';
 import SimpleMap from './components/maps';
 import NextEvent from './components/next-event';
+import PastEvents from './components/past-events';
 
 export default class Home extends Component {
 
@@ -16,6 +17,7 @@ export default class Home extends Component {
           </div>
         </div>
         <NextEvent />
+        <PastEvents />
         <SubscribePage />
       </div>
     );

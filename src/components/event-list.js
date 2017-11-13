@@ -6,7 +6,7 @@ const AnyReactComponent = ({ text }) => (
   <div style={{
     position: 'relative', color: 'white', background: 'blue', padding: '.7em',
     textAlign: 'center', fontFamily: 'Calluna', fontSize: '14px', borderRadius: '4px',
-    height: 40, width: 160, top: -40, left: -160
+    height: 40, width: 200, top: -40, left: -160
   }}>
     {text}
   </div>

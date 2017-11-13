@@ -200,7 +200,7 @@ body {
   padding: var(--section-padding);
 }
 #root nav.navbar.navbar-expand-md.navbar-light.bg-faded {
-  border-bottom: 1px solid var(--ghost-color);
+  border-bottom: 1px solid rgba(0,0,0,.1);
 }
 @media (max-width: 576px) {
   .navbar-brand img {
@@ -252,6 +252,9 @@ body {
   bottom: -10px;
   right: 0;
   left: 0;
+}
+.footer p {
+  color: #999;
 }
 @media (max-width: 576px) {
   #root .footer .text-right {
