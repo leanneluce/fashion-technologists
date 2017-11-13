@@ -113,8 +113,8 @@ export default class NextEvent extends Component {
   }
 
   render() {
-    console.log(this.state.eventdata);
-    var events = this.state.eventdata.map((event) => {
+    console.log(this.state.eventdata[0]);
+    var events = this.state.eventdata.slice(0, 1).map((event) => {
 
       var facebookShare = ("https://www.facebook.com/sharer/sharer.php?u=" + event.link)
       var twitterShare = ("https://twitter.com/home?status=" + event.link)
